@@ -6,13 +6,10 @@ class DataProcessor:
         pass
 
     def process_data(self, data):
-        # Implement your data processing logic here
-        # For example, you can manipulate the data, perform calculations, etc.
-        processed_data = data.upper()  # Just an example; replace with your actual processing
+        processed_data = data.upper() 
 
         return processed_data
 
-# Example usage:
 if __name__ == "__main__":
     data_processor = DataProcessor()
     input_data = "Hello, World!"
